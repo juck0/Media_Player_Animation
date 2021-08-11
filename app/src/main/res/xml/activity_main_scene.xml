@@ -50,7 +50,7 @@
     <Transition
         app:constraintSetEnd="@id/end"
         app:constraintSetStart="@+id/start" >
-        <OnSwipe app:touchAnchorId="@id/ImageView1"
+        <OnSwipe app:touchAnchorId="@+id/ImageView1"
             app:dragDirection="dragUp" />
 
     </Transition>
