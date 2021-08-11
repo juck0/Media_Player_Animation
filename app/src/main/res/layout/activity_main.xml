@@ -15,21 +15,14 @@
         android:background="@drawable/img"
         android:padding="20dp"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        />
 
     <ImageView
-        android:id="@+id/TextView2"
+        android:id="@+id/ImageView2"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:background="@drawable/play_arrow_24"
-        app:layout_constraintBottom_toBottomOf="@+id/ImageView1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ImageView1" />
+       />
 
     <TextView
         android:id="@+id/textView1"
@@ -40,8 +33,6 @@
         android:text="my video title"
         android:textColor="#ffff"
         android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ImageView1" />
+        />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
